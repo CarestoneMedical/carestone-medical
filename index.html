@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carestone Medical | Brampton</title>
+  <meta name="description" content="Carestone Medical provides custom orthotics, foot care, compression stockings, orthopedic braces and medical equipment in Brampton, Ontario.">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      color: #24323d;
+      line-height: 1.6;
+      background: #f8fbfc;
+    }
+
+    header {
+      background: white;
+      padding: 18px 7%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+    }
+
+    .logo {
+      font-size: 25px;
+      font-weight: bold;
+      color: #176b87;
+    }
+
+    nav a {
+      margin-left: 22px;
+      text-decoration: none;
+      color: #24323d;
+      font-weight: 600;
+    }
+
+    .hero {
+      padding: 100px 7%;
+      background: linear-gradient(135deg, #eaf7f8, #ffffff);
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      color: #176b87;
+      margin-bottom: 18px;
+    }
+
+    .hero p {
+      max-width: 700px;
+      margin: auto;
+      font-size: 19px;
+      color: #52636d;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 14px 28px;
+      background: #176b87;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 70px 7%;
+    }
+
+    .section-title {
+      text-align: center;
+      color: #176b87;
+      font-size: 32px;
+      margin-bottom: 40px;
+    }
+
+    .about {
+      max-width: 850px;
+      margin: auto;
+      text-align: center;
+      font-size: 17px;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 28px;
+      border-radius: 10px;
+      box-shadow: 0 3px 15px rgba(0,0,0,0.07);
+      text-align: center;
+    }
+
+    .card h3 {
+      color: #176b87;
+      margin-bottom: 10px;
+    }
+
+    .contact {
+      background: #eaf7f8;
+      text-align: center;
+    }
+
+    .contact p {
+      margin: 8px 0;
+    }
+
+    footer {
+      background: #176b87;
+      color: white;
+      text-align: center;
+      padding: 25px;
+    }
+
+    @media (max-width: 700px) {
+      header {
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      nav a {
+        margin: 0 6px;
+        font-size: 14px;
+      }
+
+      .hero h1 {
+        font-size: 36px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">CAREStone Medical</div>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#equipment">Equipment</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Carestone Medical</h1>
+
+  <p>
+    Professional foot care, custom orthotics, compression therapy
+    and medical equipment solutions in Brampton, Ontario.
+  </p>
+
+  <a class="button" href="#contact">Book an Appointment</a>
+</section>
+
+<section id="about">
+  <h2 class="section-title">About Carestone Medical</h2>
+
+  <div class="about">
+    <p>
+      Carestone Medical provides specialized foot care and medical
+      equipment solutions designed to support comfort, mobility and
+      everyday well-being. We offer custom orthotics, compression
+      stockings, orthopedic braces and other medical products to
+      meet individual patient needs.
+    </p>
+  </div>
+</section>
+
+<section id="services">
+  <h2 class="section-title">Our Services</h2>
+
+  <div class="services">
+
+    <div class="card">
+      <h3>Custom Orthotics</h3>
+      <p>Custom foot orthotics designed to support alignment, comfort and mobility.</p>
+    </div>
+
+    <div class="card">
+      <h3>Foot Care</h3>
+      <p>Professional foot care services for a variety of foot-related concerns.</p>
+    </div>
+
+    <div class="card">
+      <h3>Compression Stockings</h3>
+      <p>Compression solutions designed to support circulation and manage swelling.</p>
+    </div>
+
+    <div class="card">
+      <h3>Orthopedic Braces</h3>
+      <p>Knee, ankle, back, wrist, elbow and shoulder braces and supports.</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="equipment">
+  <h2 class="section-title">Medical Equipment</h2>
+
+  <div class="services">
+
+    <div class="card">
+      <h3>Knee & Ankle Braces</h3>
+      <p>Support products for stability, protection and recovery.</p>
+    </div>
+
+    <div class="card">
+      <h3>Back & Joint Supports</h3>
+      <p>Orthopedic supports for various mobility and support needs.</p>
+    </div>
+
+    <div class="card">
+      <h3>TENS Units</h3>
+      <p>Electrical stimulation devices for pain-management support.</p>
+    </div>
+
+    <div class="card">
+      <h3>Medical Products</h3>
+      <p>A selection of medical equipment and supportive products.</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2 class="section-title">Contact Us</h2>
+
+  <p><strong>Carestone Medical</strong></p>
+  <p>480 Chrysler Drive, Unit 40(3)</p>
+  <p>Brampton, Ontario L6S 0C1</p>
+  <p>Phone: 437-608-6932</p>
+  <p>Email: carestonemedical1@gmail.com</p>
+
+  <a class="button" href="mailto:carestonemedical1@gmail.com">
+    Contact Us
+  </a>
+</section>
+
+<footer>
+  © 2026 Carestone Medical. All Rights Reserved.
+</footer>
+
+</body>
+</html>
